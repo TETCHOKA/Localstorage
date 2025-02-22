@@ -20,19 +20,19 @@ bouton.addEventListener('click', function(){
             //div.appendChild(formulaire);          
 });
 
-// function Submit(){
+function Submit(){
 
-// var nom = document.querySelector('input[name="nom"]').value;
-// var prenom = document.querySelector('input[name="prenom"]').value;
+var nom = document.querySelector('input[name="nom"]').value;
+var prenom = document.querySelector('input[name="prenom"]').value;
 
-// const information = {
-//     nom:nom,
-//     prenom:prenom
-// }
+const information = {
+    nom:nom,
+    prenom:prenom
+}
 
-// localStorage.setItem('formData', JSON.stringify(information));
+localStorage.setItem('formData', JSON.stringify(information));
 
-// }
+}
 
 
 
