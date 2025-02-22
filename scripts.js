@@ -124,7 +124,7 @@ function AjouterPays() {
           return;
         }
       
-        // Créer unobjet pour stocker les données
+        // Création d'un objet pour stocker les données
         const donnees = {
           civilite: civilite.value,
           nomPrenom: nomPrenom,
